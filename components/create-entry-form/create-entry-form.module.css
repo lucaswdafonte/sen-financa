@@ -1,0 +1,17 @@
+.addEntryForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+
+.addButton {
+  border: 0.1rem solid black;
+  padding: 0.5rem 1rem;
+}
+
+.addButton:hover {
+  transform: scale(1.2, 1.2);
+  cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.totalsContainer {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0.2rem 0.2rem 0.5rem;
+}
+
+.totalsContainer span {
+  background-color: #b97375;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}

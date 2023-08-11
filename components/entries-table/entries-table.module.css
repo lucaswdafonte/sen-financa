@@ -1,0 +1,43 @@
+.table {
+  border-collapse: collapse;
+  box-shadow: 0.2rem 0.2rem 0.5rem;
+}
+
+.tableHeader {
+  background-color: #0f0f0f;
+  color: white;
+}
+
+.tableHeader th {
+  padding: 1.5rem 0.5rem;
+  text-align: center;
+}
+
+.tableBody td {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.tableBody tr:nth-child(odd) {
+  background-color: #6279b8;
+  color: white;
+}
+
+.tableBody tr:nth-child(even) {
+  background-color: #ebfcfb;
+  color: #0f0f0f;
+}
+
+.deleteIcon:hover {
+  cursor: pointer;
+  transform: scale(1.2, 1.2);
+}
+
+.noEntries {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.shortColumn {
+  width: 5rem;
+}
